@@ -1,0 +1,46 @@
+Name Address Hobbies Aim  why anudip
+class cal	//creating another class 
+{
+	public static void add(int i , int j)//addition  method
+	{ 
+		int sum=0;
+		sum=i+j;
+		System.out.println("Addition is: "+ sum);
+	}
+
+	public static void sub(int a , int b)//substraction method
+	{ 
+		int sub=0;
+		sub= a-b;
+		System.out.println("Substraction is: "+ sub);
+	}
+
+	public static void Multi(int i , int j)// multiplication method
+	{ 
+		int mul =0;
+		mul =i*j;
+		System.out.println("Multiplication is: "+ mul);
+	}
+
+	public static void div(int i , int j)//division method
+	{ 
+		int Div=0;
+		Div=i / j;
+		System.out.println("Division is: "+ Div);
+	}
+}
+
+
+
+class Calculation1 
+{
+	public static void main(String[] args) 
+	{
+		cal c1=new cal();	//creating an object
+		c1.add(40,10);
+		c1.sub(40,10);
+		c1.Multi(40,10);
+		c1.div(40,10);
+		
+	}
+}
