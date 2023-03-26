@@ -1,0 +1,18 @@
+class Odd
+//23/03/23
+//First Practical 
+//Write a Java Program To find if the Number is odd or even
+
+{
+	public static void main(String[] args) 
+	{
+		int i=8; //initializing the variable
+		if (i%2==0)
+		{
+			System.out.println("The number is even: " + i);//printing output
+		}
+		else {System.out.println("The number is odd: "+ i);//printing output
+
+}
+	}
+}
